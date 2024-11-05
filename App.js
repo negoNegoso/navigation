@@ -15,7 +15,7 @@ export default function App() {
       backgroundColor="transparent"
       translucent
       />
-      {!loading ? <Groups /> : <Loading/>}
+      {loading ? <Groups /> : <Loading/>}
     </ThemeProvider>
 
   );
