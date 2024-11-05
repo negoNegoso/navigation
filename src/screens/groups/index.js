@@ -1,6 +1,7 @@
 
 import { StyleSheet, Text, View } from 'react-native';
 import { Container, Title } from './styles';
+import * as S from './styles';
 
 export function Groups() {
     return (
@@ -11,9 +12,15 @@ export function Groups() {
 
             <Container>
                 <Title>
-                    Groups
+                    Groups 2
                 </Title>
             </Container>
+
+            <S.Container>
+                <S.Title>
+                    Groups 3
+                </S.Title>
+            </S.Container>
 
         </View>
     );
